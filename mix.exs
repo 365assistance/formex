@@ -30,6 +30,7 @@ defmodule Formex.Mixfile do
       {:phoenix_html, "~> 2.0 or ~> 3.0"},
       {:ex_doc, "~> 0.23.0", only: :dev},
       {:phoenix, "~> 1.5.0", only: [:dev, :test]},
+      {:plug, "~> 1.10"},
       {:jason, "~> 1.3.0", only: [:dev, :test]},
       {:credo, "~> 1.0", only: [:dev, :test], runtime: false}
     ]
